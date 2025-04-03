@@ -1,4 +1,5 @@
 ﻿#include "SemaforDKA.h"
+
 #define dugiTajmer 2 //Vrijeme trajanja Crvenog/Zelenog Svjetla
 #define kratkiTajmer 1 //Vrijeme Trajanja Zutog svijetla
 
@@ -11,12 +12,9 @@ int main() {
     PokreniAutomat(Semafor);
 }
 
-
-
-
 void PokreniAutomat(SemaforDKA T) {
     char slovo;
-    while ((slovo = _getch()) != 'q') {
+    while ((slovo = std::getchar()) != 'q') {
         if (slovo == 'c') {
             T.SenzorInfo(true);
             LOG(" - Auto Detektovano na Sporednoj Cesti - ");
@@ -31,6 +29,7 @@ void PokreniAutomat(SemaforDKA T) {
     }
 
 };
+
 void Pravila() {
     LOG ( "Dobrodosli u Implementaciju Semafora kao Konacni automat" );
     LOG ( "Autor: Adin Jahic, Broj Indexa: II-80, Predmet: Automati i Formalni Jezici" );

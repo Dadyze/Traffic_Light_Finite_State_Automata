@@ -1,4 +1,5 @@
 #include "SemaforDKA.h"
+
 SemaforDKA::SemaforDKA(int longTimer, int shortTimer)
 {
     this->trenutnoStanje = StanjaSemafora::GLAVNA_ZELENO;

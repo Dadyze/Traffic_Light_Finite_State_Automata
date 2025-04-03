@@ -1,16 +1,12 @@
 #pragma once
-#include "StanjaSemafora.cpp"
-#include <chrono>
+#include "StanjaSemafora.h"
 #include <thread>
-#include <conio.h>
 #include <iostream>
 
 using namespace std;
-using namespace chrono_literals;
 
 #define Cekaj(x) this_thread::sleep_for(x)
-#define LOG(x) cout<< x << endl;
-
+#define LOG(x) cout << x << endl;
 
 //   -Sporedna Cesta-
 // _____| |____

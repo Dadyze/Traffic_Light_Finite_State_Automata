@@ -48,17 +48,20 @@ To build and run this project, you will need:
    git clone https://github.com/Dadyze/Traffic-Light-Finite-State-Automata-in-Cpp.git
    cd Traffic-Light-Finite-State-Automata-in-Cpp
    ```
-
-2. Compile the project using `g++`:
-   ```bash
-   g++ -std=c++11 -o traffic_light_fsa main.cpp
-   ```
-
-3. Run the program:
-   ```bash
-   ./traffic_light_fsa
-   ```
-
+2. Building
+#### Windows
+    1. Open the project in Visual Studio.
+    2. Use the "Build" button to compile the project.
+    3. Use the "Run" button to execute the compiled program.
+#### Linux
+To build and run the project, run:
+```bash
+make run
+```
+To build, execute:
+```bash
+make build
+```
 ### Usage
 
 - Press **`c`** to simulate detecting a car on the side road and initiate state transitions.
