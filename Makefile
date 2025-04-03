@@ -1,7 +1,7 @@
 CXX ?= g++
 
 BUILD_DIR := ./build/linux/
-EXE_NAME := SemaforDKA
+EXE_NAME := traffic_light_fsa
 EXE := $(BUILD_DIR)$(EXE_NAME)
 
 SRC_DIR := ./SemaforAutomat/

@@ -1,3 +1,4 @@
+#pragma once
 // Pretpostavka:
 // Ako je na glavnoj Zeleno ili Zuto na sporednoj mora biti Crveno i obrnuto 
 enum class StanjaSemafora {
